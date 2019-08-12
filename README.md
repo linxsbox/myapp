@@ -33,7 +33,7 @@ groovin_material_icons: ^1.1.5
 ## 文件目录
 
 ```
-lib\main.dart 主目录
+lib\main.dart 主入口 main 函数
 lib\stateWidgetDemo.dart 文章 - 《State x Widget》
 lib\testParams.dart 组件参数、传参测试
 lib\loginPage.dart 登陆页面
