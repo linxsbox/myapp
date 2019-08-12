@@ -67,4 +67,4 @@ State x Widget 到底是个啥?
 
 当然有兴趣一起学习的小伙伴也可以关注一下啊！
 
-<center>![公众号二维码](./assets/qrcode_for_mp_weixin.jpg)</center>
+<center><img src="./screenshots/qrcode_for_mp_weixin.jpg" alt="公众号二维码"/></center>
