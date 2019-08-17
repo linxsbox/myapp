@@ -3,8 +3,10 @@ import 'package:flutter/material.dart';
 // 可视化调试所需包
 import 'package:flutter/rendering.dart';
 
-// 《State x Widget》文章
-import 'package:myapp/stateWidgetDemo.dart';
+// State x Widget
+// import 'package:myapp/stateWidgetDemo.dart';
+// 多子类元素布局（一）：Row & Column
+import 'package:myapp/layoutDemo1.dart';
 
 // 组件参数、传参测试
 // import 'package:myapp/testParams.dart';
@@ -35,8 +37,21 @@ class MyApp extends StatelessWidget {
         ),
 
         // Scaffold 的容器 body
-        // 将 Text('Hello World') 换成 UnchangeWidget 组件
-        body: UnchangeWidget(), 
+        body: Container(
+          // child: Text('Hello World'), // hello world 例子
+          child: RowStructDemo(), // Row 结构的例子
+          // child: ColumnStructDemo(), // Column 结构的例子
+
+          // 登录页面的例子
+          // child: BuildLoginFormBox(),
+        ),
+        // // Flutter 中文网例子
+        // body: ListView(
+        //   children: <Widget>[
+        //     PageDemo(),
+        //   ],
+        // ),
+        // // -----
       ),
     );
   }

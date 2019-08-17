@@ -9,7 +9,7 @@ MyApp 是一个 Flutter 项目。提供于各位小伙伴们学习参考。
 
 ## package 包
 
-目前在项目中所用到 pub 的包：
+目前在项目中 "pubspec.yaml" 所用到 pub 的包：
 
 ```yml
 # dio package | dart 的 http 处理端
@@ -41,6 +41,14 @@ lib\loginPage.dart 登陆页面
 
 ---
 
+## 资源文件 pubspec.yaml
+引入的资源文件
+```
+  assets: 
+   - images/lake.jpg
+```
+---
+
 ## 已推送文章目录
 
 《命令行环境开发Android？》
@@ -61,10 +69,15 @@ Flutter 1.7 已经发布啦！
 《Flutter State x Widget》
 State x Widget 到底是个啥?
 
+《Flutter 视图布局-前言》
+在说说布局那些事之前
+
+《Flutter 视图布局（一）》
+Row 和 Column
 ---
 
 ## 公众号
 
 当然有兴趣一起学习的小伙伴也可以关注一下啊！
 
-<center><img src="./screenshots/qrcode_for_mp_weixin.jpg" alt="公众号二维码"/></center>
+<img src="./screenshots/qrcode_for_mp_weixin.jpg" alt="公众号二维码"/>
