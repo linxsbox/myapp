@@ -35,6 +35,8 @@ groovin_material_icons: ^1.1.5
 ```
 lib\main.dart 主入口 main 函数
 lib\stateWidgetDemo.dart 文章 - 《State x Widget》
+lib\layoutDemo1.dart 文章 - 《布局（一）》
+lib\layoutDemo2.dart 文章 - 《布局（二）》
 lib\testParams.dart 组件参数、传参测试
 lib\loginPage.dart 登陆页面
 ```
@@ -74,6 +76,9 @@ State x Widget 到底是个啥?
 
 《Flutter 视图布局（一）》
 Row 和 Column
+
+《Flutter 视图布局（二）》
+ListBody 和 ListView
 ---
 
 ## 公众号
