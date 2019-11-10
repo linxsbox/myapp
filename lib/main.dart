@@ -5,11 +5,15 @@ import 'package:flutter/rendering.dart';
 
 // State x Widget
 // import 'package:myapp/stateWidgetDemo.dart';
+
 // 多子类元素布局（一）：Row & Column
-import 'package:myapp/layoutDemo1.dart';
+// import 'package:myapp/layoutDemo1.dart';
 
 // 多子类元素布局（二）：ListBody & ListView
-import 'package:myapp/layoutDemo2.dart';
+// import 'package:myapp/layoutDemo2.dart';
+
+// 多子类元素布局（三）：Table & Waro & Flow 
+import 'package:myapp/layoutDemo3.dart';
 
 // 组件参数、传参测试
 // import 'package:myapp/testParams.dart';
@@ -50,12 +54,16 @@ class MyApp extends StatelessWidget {
           // ListBody - 编译错误的情况
           // child: ListBodyDeme(), 
           
-          child: ListViewDeme(), // ListView 例子
+          // child: ListViewDeme(), // ListView 例子
           // child: ListViewBuilderDeme(), // ListView Builder例子
           // child: ListViewSeparatedDeme(), // ListView Separated例子
           // child: ListViewCustomDeme(), // ListView Custom例子
           
-
+          // 布局（三）
+          // child: TableDemo(), // TableDemo 例子
+          // child: WarpDemo(), // WarpDemo 例子
+          child: FlowDemo(), // FlowDemo 例子
+          
           // 登录页面的例子
           // child: BuildLoginFormBox(),
         ),

@@ -29,10 +29,10 @@ class ListViewDeme extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ListView(
-      primary: true, // 与 controller 互斥
+      // primary: true, // 与 controller 互斥
       controller: _controller, // controller 事件
       // physics: physics
-      reverse: true,
+      // reverse: true,
       children: <Widget>[
         Text(wp.asPascalCase),
         Text(wp.asPascalCase),
